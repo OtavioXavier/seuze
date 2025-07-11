@@ -1,5 +1,6 @@
 import Logo from "@/components/commom/logo";
 import Ad from "@/components/layout/header/ad";
+import AvatarMenu from "@/components/layout/header/avatar-menu";
 import Cart from "@/components/layout/header/cart";
 import SearchBar from "@/components/layout/header/search-bar";
 import ProductCard from "@/components/products/product-card";
@@ -15,6 +16,7 @@ export default function Home() {
         <SearchBar />
         <Ad />
         <Cart itens={2} />
+        <AvatarMenu />
       </header>
       <main>
         <ProductCard
