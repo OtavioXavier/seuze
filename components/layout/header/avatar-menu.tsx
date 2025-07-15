@@ -19,7 +19,7 @@ export default function AvatarMenu() {
         <div className="flex items-center gap-2 p-2">
           <Avatar className="h-8 w-8">
             <AvatarImage src="/placeholder-user.jpg" />
-            <AvatarFallback>JD</AvatarFallback>
+            <AvatarFallback>OX</AvatarFallback>
           </Avatar>
           <div className="grid gap-0.5 leading-none">
             <div className="font-semibold">Otavio Xavier</div>
