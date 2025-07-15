@@ -3,11 +3,9 @@ import Ad from "@/components/layout/header/ad";
 import AvatarMenu from "@/components/layout/header/avatar-menu";
 import Cart from "@/components/layout/header/cart";
 import SearchBar from "@/components/layout/header/search-bar";
-import CategoryCard from "@/components/layout/main/categories/category-card";
 import CategoryCarousel from "@/components/layout/main/categories/category-carousel";
 import Hero from "@/components/layout/main/hero";
 import ProductCard from "@/components/layout/main/products/product-card";
-import { Carrot } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
